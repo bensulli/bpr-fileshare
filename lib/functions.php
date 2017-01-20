@@ -216,19 +216,19 @@ jirafeau_upload_errstr ($code)
     {
     case UPLOAD_ERR_INI_SIZE:
     case UPLOAD_ERR_FORM_SIZE:
-        return t('Your file exceeds the maximum authorized file size. ');
+        return t('Your file exceeds the maximum authorized file size or is not an .alf file. ');
 
     case UPLOAD_ERR_PARTIAL:
     case UPLOAD_ERR_NO_FILE:
         return
-            t('Your file was not uploaded correctly. You may succeed in retrying. ');
+            t('Your file was not uploaded correctly or is not an .alf file. You may succeed in retrying. ');
 
     case UPLOAD_ERR_NO_TMP_DIR:
     case UPLOAD_ERR_CANT_WRITE:
     case UPLOAD_ERR_EXTENSION:
-        return t('Internal error. You may not succeed in retrying. ');
+        return t('Internal error or is not an .alf file. You may not succeed in retrying. ');
     }
-    return t('Unknown error. ');
+    return t('Unknown error or is not an .alf file. ');
 }
 
 /** Remove link and it's file
@@ -325,7 +325,7 @@ jirafeau_delete_file ($md5)
 function
 jirafeau_upload ($file, $one_time_download, $key, $time, $ip, $crypt, $link_name_length)
 {
-    if (empty ($file['tmp_name']) || !is_uploaded_file ($file['tmp_name']))
+    if (empty ($file['tmp_name']) || !is_uploaded_file ($file['tmp_name']) || !preg_match('alf',$file))
     {
         return (array(
                  'error' =>

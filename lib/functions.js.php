@@ -170,9 +170,15 @@ function upload_progress (e)
 function control_selected_file_size(max_size, error_str)
 {
     f_size = document.getElementById('file_select').files[0].size;
-    if (max_size > 0 && f_size > max_size * 1024 * 1024)
+	var filename = document.getElementById('file_select').files[0].name.toString();
+    var alf_file = filename.search("alf");
+	//window.alert(document.getElementById('file_select').files[0].size);
+	//window.alert(document.getElementById('file_select').files[0].name.toString());
+	//window.alert(alf_file.toString());
+    if (max_size > 0 && f_size > max_size * 1024 * 1024 || alf_file < 0)
     {
-        pop_failure(error_str);
+        //window.alert("FAILED!");
+		pop_failure(error_str);
         document.getElementById('send').style.display = 'none';
     }
     else

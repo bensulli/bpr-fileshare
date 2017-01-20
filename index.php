@@ -154,7 +154,7 @@ if (jirafeau_has_upload_password ($cfg))
     </legend>
     <p>
     <input type="file" id="file_select" size="30"
-    onchange="control_selected_file_size(<?php echo $cfg['maximal_upload_size'] ?>, '<?php echo t ('File is too big') . ', ' . t ('File size is limited to') . " " . $cfg['maximal_upload_size'] . " MB"; ?>')"/>
+    onchange="control_selected_file_size(<?php echo $cfg['maximal_upload_size'] ?>, '<?php echo t ('File is too big or is not an .alf file') . ', ' . t ('File size is limited to') . " " . $cfg['maximal_upload_size'] . " MB"; ?>')"/>
     </p>
 
     <div id="options">

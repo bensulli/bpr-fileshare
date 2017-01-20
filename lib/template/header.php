@@ -66,7 +66,7 @@ else
     </a>
   </h1>
   <div class="info">
-	<p align="left"><font size="2">This sharing service allows you to upload your Awaken puzzle files to be shared with other users. Puzzles that you create within Awaken can be found in:<br /><br /><u>C:\Users\{USERNAME}\AppData\LocalLow\Blueprint Reality\Awaken\PlayerLevels\</u><br /><br />Puzzles end in <b>.alf</b>. To load a level file shared with you, place it in the same folder before running Awaken. Please only upload <b>.alf</b> files, all other uploads will be removed.
+	<p align="left"><font size="2">This sharing service allows you to upload your Awaken puzzle files to be shared with other users. Puzzles that you create within Awaken can be found in:<br /><br /><u>C:\Users\{USERNAME}\AppData\LocalLow\Blueprint Reality\Awaken\PlayerLevels\</u><br /><br />Puzzles end in <b>.alf</b>. To load a level file shared with you, place it in the same folder before running Awaken.
 	</font></p>
 	</div>
 
