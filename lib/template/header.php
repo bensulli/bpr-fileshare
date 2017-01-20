@@ -51,11 +51,19 @@ else
   <link href="<?php echo $web_root . 'media/' . $style . '/style.css.php'; ?>" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<script type="text/javascript" language="Javascript" src="lib/functions.js.php"></script>
 
+<script type="text/javascript" language="Javascript" src="lib/functions.js.php"></script>
+        <div>
+            <p align="center"><a href="https://awaken-game.com"><img src="https://share.awaken-game.com/awaken_header.png"/></a></p>
+        </div>
 <div id="content">
+  	
+
   <h1>
+
     <a href="<?php echo $web_root; ?>">
-      <?php echo (true === empty($cfg['title']))? t('Jirafeau, your web file repository') : $cfg['title']; ?>
+      <?php echo  (true === empty($cfg['title']))? t('Jirafeau, your web file repository') : $cfg['title']; ?>
     </a>
   </h1>
+
+            

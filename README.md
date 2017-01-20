@@ -1,3 +1,9 @@
+In accordance with the AGPLv3 license, this repo contains the full version of the site hosted at https://share.awaken-game.com. Changes from the core Jirafeau project are minor and largely cosmetic and can be seen in the history here.
+
+Big thanks to the Jirafeau team for such a great self-hosted tool!
+
+The remainder of this readme is the original Jirafeau readme in its entirety.
+
 # Jirafeau
 
 Welcome to the official Jirafeau project, an [Open-Source software](https://en.wikipedia.org/wiki/Open-source_software).

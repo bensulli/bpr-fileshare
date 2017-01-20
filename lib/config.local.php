@@ -7,7 +7,7 @@ $cfg = array (
   'style' => 'modern',
   'organisation' => 'BPR',
   'contactperson' => '',
-  'title' => 'Awaken Puzzle Share Service',
+  'title' => 'Awaken Puzzle Sharing Service',
   'preview' => false,
   'enable_crypt' => false,
   'link_name_length' => 8,
@@ -31,7 +31,7 @@ $cfg = array (
     'none' => false,
   ),
   'availability_default' => 'month',
-  'maximal_upload_size' => 10,
+  'maximal_upload_size' => 1,
   'proxy_ip' => 
   array (
   ),

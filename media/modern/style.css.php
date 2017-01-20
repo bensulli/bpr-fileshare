@@ -33,13 +33,13 @@ header('Content-type: text/css');
 body {
     font-family:"Lucida Grande","Lucida Sans Unicode",Tahoma,sans-serif;
     font-size: 100%;
-    color:#333333;
+    color:#FFFFFF;
     margin:0;
-    background:#e5e5e5;
+    background:#1c0623;
 }
 
 a, a:link, a:visited {
-	color: #223344;
+	color: #FFFFFF;
 	text-decoration: underlined;
 }
 
@@ -48,8 +48,8 @@ fieldset {
   font-size:90%;
   width: 50em;
   margin: auto;
-  background: white;
-  border: 2px solid #dbdbdb;
+  background: #d2cdd3;
+  border: 4px solid #fdc411;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -58,8 +58,7 @@ fieldset {
 fieldset legend {
   color: white;
   font-size:130%;
-  background: #cf3b19;
-  border: 1px solid #A52E13;
+  background: #fdc411;
   padding: 5px 20px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -68,6 +67,7 @@ fieldset legend {
 
 h1 {
   font-size: 175%;
+  color: white;
   width: 100%;
   text-align: center;
   height: 50px;
@@ -186,7 +186,7 @@ text-align: center;
   text-align: left;
   font-size: 90%;
   width: 50em;
-  background: #e5e5e5;
+  background: #1c0623;
   border: 0px solid #CCCCCC;
   margin: auto;
   -webkit-border-radius: 5px;
