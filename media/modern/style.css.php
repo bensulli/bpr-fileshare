@@ -48,7 +48,7 @@ fieldset {
   font-size:90%;
   width: 50em;
   margin: auto;
-  background: #d2cdd3;
+  background: #b6b6b6;
   border: 4px solid #fdc411;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -187,7 +187,7 @@ text-align: center;
   font-size: 90%;
   width: 50em;
   background: #1c0623;
-  border: 0px solid #CCCCCC;
+  border: 0px solid #fec512;
   margin: auto;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -198,7 +198,7 @@ text-align: center;
   text-align: center;
   width: 50em;
   background: white;
-  border: 2px solid #CCCCCC;
+  border: 4px solid #fec512;
   margin: auto;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -211,8 +211,8 @@ font-size:90%;
   padding-top: 20px;
   padding-bottom: 20px;
   width: 50em;
-  background: #B6D7A8;
-  border: 2px solid #91C27C;
+  background: #b6b6b6;
+  border: 4px solid #fec512;
   margin: auto;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -228,4 +228,9 @@ font-size:90%;
   padding-left: 20px;
   margin-left: 10px;
   background: url(email.png) no-repeat;
+}
+
+div.info {
+    max-width:700px;
+    margin: auto;
 }
